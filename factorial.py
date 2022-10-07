@@ -10,4 +10,12 @@ def factorial(n):
     return resultado
 n=int(input("Dime un numero: "))
 print("El factorial de ", n, "es ", factorial(n))
+
+def factorial_for(n):
+    resultado=1
     
+    for i in range(1,n+1):
+        resultado=resultado*i
+    return resultado
+n=int(input("Dime un numero: "))
+print("El factorial de ", n, "es ", factorial_for(n))
